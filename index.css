@@ -1,0 +1,118 @@
+body{
+    box-sizing: border-box;
+    position: relative;
+    width: 1600px;
+    height: 1200px;
+    background: #FFFFFF;
+    margin: 0;
+    font-family:'Source Sans Pro', sans-serif;;
+}
+
+header{
+    width: 1440px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    justify-content: space-between;
+    background: #FCFCFF;
+}
+
+.header-icons{
+    display: flex;
+    align-items: center;
+    width: 284px;
+    height: 54px;
+}
+
+header img{
+    width: 140px;
+    height: 40px;
+    margin-left: 15px;
+}
+
+.header-ul{
+    list-style: none;
+    display: flex;
+}
+.header-icons img{
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.header-icons button{
+    padding: 15px 30px 15px 30px;
+    background: #202142;
+    border-radius: 10px;
+    border: 0px;
+    color: white;
+}
+
+.header-li{
+    margin-left: 25px;
+}
+
+.settings{
+    color: #202142;
+    font-size: 30px;
+    margin-left: 216px;
+    margin-top: 90px;
+}
+
+.body-list{
+    list-style: none;
+    margin-left: 201px;
+    margin-top: 40px;
+}
+
+.list-date{
+    margin-top: 15px;
+}
+
+.line{
+    width: 1px;
+    height: 334px;
+    background: #EFEFFF;
+    left: 470px;
+    top: 210px;
+    margin-left: 102px;
+}
+
+.cardsandnot{
+    display: flex;
+}
+
+.sett-mail{
+    font-size: 24px;
+    margin-left: 86px;
+}
+
+.sett-mail div{
+    margin-top: 40px;
+}
+
+.buttons{
+    margin-left: 553px;
+    margin-top: 45px;
+}
+
+.save{
+    background: #202142;
+    border-radius: 10px;
+    color: white;
+    width: 174px;
+    height: 54px;
+    font-size: 16px;
+    margin-right: 15px;
+}
+
+.back{
+    border-radius: 10px;
+    width: 174px;
+    height: 54px;
+    font-size: 16px;
+    border: 0;
+}
