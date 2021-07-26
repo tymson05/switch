@@ -119,10 +119,10 @@ header img{
 
 input[type=checkbox]{
 	width: 0;
-	
+
 }
 
-label {
+.toggle {
 	cursor: pointer;
 	text-indent: -9999px;
 	width: 200px;
@@ -133,7 +133,7 @@ label {
 	position: relative;
 }
 
-label:after {
+.toggle:after {
 	content: '';
 	position: absolute;
 	top: 5px;
@@ -145,16 +145,16 @@ label:after {
 	transition: 0.3s;
 }
 
-input:checked + label {
+input:checked + .toggle {
 	background: #bada55;
 }
 
-input:checked + label:after {
+input:checked + .toggle:after {
 	left: calc(100% - 5px);
 	transform: translateX(-100%);
 }
 
-label:active:after {
+.toggle:active:after {
 	width: 130px;
 }
 
@@ -176,20 +176,16 @@ body {
     margin: 0;
     padding: 0;
   }
-  
-  
-  
-  
+
+
+
+
   .new {
     padding: 50px;
   }
-  
-  .form-group {
-    display: block;
-    margin-bottom: 15px;
-  }
-  
-  .form-group input {
+
+
+  input {
     padding: 0;
     height: initial;
     width: initial;
@@ -197,13 +193,13 @@ body {
     display: none;
     cursor: pointer;
   }
-  
-  .form-group label {
+
+  .switch {
     position: relative;
     cursor: pointer;
   }
-  
-  .form-group label:before {
+
+  .switch:before {
     content:'';
     -webkit-appearance: none;
     background-color: transparent;
@@ -216,8 +212,8 @@ body {
     cursor: pointer;
     margin-right: 5px;
   }
-  
-  .form-group input:checked + label:after {
+
+  input:checked + .switch:after {
     content: '';
     display: block;
     position: absolute;
